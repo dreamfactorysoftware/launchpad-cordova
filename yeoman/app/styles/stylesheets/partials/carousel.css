@@ -1,0 +1,150 @@
+/*
+  Disable all responsive grids
+*/
+/* line 12, ../../sass/partials/carousel.scss */
+.container {
+  width: 1200px !important;
+}
+
+/* line 17, ../../sass/partials/carousel.scss */
+.fa-8x {
+  font-size: 8em;
+}
+
+/*
+  Custom carousel styling
+*/
+/* line 26, ../../sass/partials/carousel.scss */
+.carousel {
+  width: 100%;
+  background: #000;
+  overflow: hidden;
+}
+/* line 33, ../../sass/partials/carousel.scss */
+.carousel ul {
+  padding: 25px 25px;
+  text-align: center;
+  margin: 25px auto;
+  white-space: nowrap;
+  position: relative;
+  left: 55px;
+}
+/* line 43, ../../sass/partials/carousel.scss */
+.carousel a {
+  text-decoration: none;
+}
+/* line 47, ../../sass/partials/carousel.scss */
+.carousel .thumbnail {
+  opacity: 1;
+  margin: 0;
+  transform: scale(1) translate3d(0, 0, 0);
+  transition: border 400ms ease, color 400ms ease, opacity 400ms ease;
+  -webkit-transition: border 400ms ease, color 400ms ease, opacity 400ms ease;
+  background: none;
+  padding: 0;
+  border: 1px solid #1a1a1a;
+  color: #f2f2f2;
+  white-space: normal;
+}
+/* line 67, ../../sass/partials/carousel.scss */
+.carousel .thumbnail .icon-thumbnail {
+  background: #4d4d4d;
+  padding-top: 15px;
+  border: 5px solid #4d4d4d;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 76, ../../sass/partials/carousel.scss */
+.carousel .thumbnail .caption {
+  background: #f2f2f2;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: left;
+  min-height: 110px;
+  overflow: hidden;
+}
+/* line 88, ../../sass/partials/carousel.scss */
+.carousel .thumbnail .caption h3 {
+  margin: 5px auto;
+}
+/* line 95, ../../sass/partials/carousel.scss */
+.carousel .thumbnail:hover {
+  color: #db9200;
+  border: 1px solid #db9200;
+}
+/* line 103, ../../sass/partials/carousel.scss */
+.carousel li[class^="col"] {
+  list-style: none;
+  display: inline-block;
+  float: none;
+  width: 30%;
+}
+/* line 111, ../../sass/partials/carousel.scss */
+.carousel li.item-disabled .thumbnail {
+  opacity: .4;
+  transform: scale(0.95) translate3d(0, 0, 0);
+}
+/* line 118, ../../sass/partials/carousel.scss */
+.carousel .controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: auto;
+}
+/* line 127, ../../sass/partials/carousel.scss */
+.carousel .controls .control {
+  opacity: .2;
+  display: block;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+/* line 137, ../../sass/partials/carousel.scss */
+.carousel .controls .control:hover {
+  opacity: .8;
+}
+/* line 141, ../../sass/partials/carousel.scss */
+.carousel .controls .control-left {
+  position: absolute;
+  top: 120px;
+  left: 0;
+}
+/* line 148, ../../sass/partials/carousel.scss */
+.carousel .controls .control-right {
+  position: absolute;
+  top: 120px;
+  left: 1100px;
+}
+/* line 155, ../../sass/partials/carousel.scss */
+.carousel .controls .options-menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+/* line 164, ../../sass/partials/carousel.scss */
+.carousel .controls .options-menu .btn-default {
+  color: #252525;
+  text-shadow: 0px 1px 1px rgba(250, 250, 250, 0.1);
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  background-color: #999;
+  background-image: none;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 15px;
+  text-align: center;
+}
+/* line 186, ../../sass/partials/carousel.scss */
+.carousel .controls .options-menu .active {
+  color: #fff;
+  text-shadow: 0px 1px 1px rgba(250, 250, 250, 0.8);
+}
+
+/* line 199, ../../sass/partials/carousel.scss */
+.panel-body {
+  padding: 0;
+}

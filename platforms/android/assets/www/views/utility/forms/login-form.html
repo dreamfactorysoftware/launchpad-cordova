@@ -1,0 +1,22 @@
+<p>Sign in</p>
+        <div data-ng-hide="currentDSP.session ? true : false">
+            <form data-ng-submit="userLogin(user)">
+                <div class="form-group">
+                    <label class="control-label">Email:</label>
+                    <input type="text" id="email" data-ng-model="user.email" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label">Password:</label>
+                    <input type="password" id="password" data-ng-model="user.password" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Sign In" class="btn btn-default">
+                </div>
+                <div class="form-group">
+                    <label class="control-label">Remember Me</label>
+                    <input type="checkbox" id="remember" data-ng-model="user.remember">
+                </div>
+            </form>
+        </div>

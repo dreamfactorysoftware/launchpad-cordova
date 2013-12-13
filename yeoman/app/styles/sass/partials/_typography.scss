@@ -1,0 +1,40 @@
+
+
+@for $i from 1 through 6 {
+
+  h#{$i} {
+    color: $lightcolor;
+  }
+}
+
+p {
+  color: $lightcolor;
+}
+
+
+label {
+  display: block;
+  color: $lightcolor;
+}
+
+
+
+
+.dark-text {
+
+  @for $i from 1 through 6 {
+    h#{$i} {
+      color: $darkcolor;
+    }
+  }
+
+  p {
+    color: $darkcolor;
+  }
+
+
+  label {
+    color: $darkcolor;
+    font-weight: 300;
+  }
+}

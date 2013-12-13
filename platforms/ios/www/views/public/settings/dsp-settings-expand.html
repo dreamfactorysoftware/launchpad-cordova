@@ -1,0 +1,36 @@
+<p>{{currentDSP.name}}</p>
+        <form data-ng-submit="saveDSPSettings(UISettings)">
+            <div class="control-group">
+                <label class="control-label" for="allow-guest-users">Guest Users</label>
+                <input type="checkbox" id="allow-guest-users" data-ng-model="UISettings.guestUsers">
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="allow-open-registration">Open Registration</label>
+                <input type="checkbox" id="allow-open-registration" data-ng-model="UISettings.openRegistration">
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="remember-me">Remember Me</label>
+                <input type="checkbox" id="remember-me" data-ng-model="UISettings.userSettings.rememberMe">
+            </div>
+
+
+
+            <div class="control-group">
+                <label class="control-label" for="ungrouped-app-group-name">UnGrouped App Group Name</label>
+                <input type="text" id="ungrouped-app-group-name" data-ng-model="UISettings.unGroupedApps.name">
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="ungrouped-app-group-id">UnGrouped App Group Id</label>
+                <input type="text" id="ungrouped-app-group-id" data-ng-model="UISettings.unGroupedApps.id">
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="ungrouped-app-group-description">UnGrouped App Group Description</label>
+                <input type="text" id="ungrouped-app-group-description" data-ng-model="UISettings.unGroupedApps.description">
+            </div>
+
+            <div class="control-group">
+                <input class="btn btn-default" type="submit" value="submit">
+            </div>
+        </form>
+<button class="btn btn-default" data-ng-click="updateConfig()">Update Config</button>
+<button class="btn btn-default" data-ng-click="removeDSP()">Update Config</button>

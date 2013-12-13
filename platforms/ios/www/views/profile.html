@@ -1,0 +1,91 @@
+<div class="padded-container">
+    <div class="row">
+        <div class="well dark-text">
+            <form>
+                <div class="row">
+                    <h4>User Information</h4>
+
+                    <div class="well col-xs-12">
+                        <div class="form-group">
+                            <label class="control-label" for="email">Email:</label>
+                            <input class="form-control" data-ng-model="user.email" type="email" id="email"
+                                   placeholder="Email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label" for="first-name">First Name:</label>
+                            <input class="form-control" data-ng-model="user.first_name" type="text" id="first-name" placeholder="First Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label" for="last-name">Last Name:</label>
+                            <input class="form-control" data-ng-model="user.last_name" type="text" id="last-name" placeholder="Last Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label" for="display-name">Display Name:</label>
+                            <input class="form-control" data-ng-model="user.display_name" type="text" id="display-name"
+                                   placeholder="Display Name">
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label" for="phone">Phone:</label>
+                            <input class="form-control" data-ng-model="user.phone" type="text" id="phone" placeholder="Phone">
+                        </div>
+                    </div>
+                    <h4>Default Application</h4>
+
+                    <div class="well col-xs-12">
+                        <p>
+                            <label class="control-label" for="default-app">Default Application:</label>
+                            <select id="default-app" data-ng-model="user.default_app_id" data-ng-options="a.id as a.name for a in apps"></select>
+                        </p>
+                    </div>
+
+                    <h4>Security</h4>
+
+                    <div class="well col-xs-12">
+                        <div class="form-group">
+                            <label class="control-label" for="security-question">Security Question:</label>
+                            <input class="form-control" data-ng-model="user.security_question" type="text" id="security-question"
+                                   placeholder="Security Question">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label" for="security-answer">Security Answer:</label>
+                            <input class="form-control" data-ng-model="user.security_answer" type="text" id="security-answer"
+                                   placeholder="Security Answer">
+                        </div>
+                    </div>
+
+                    <h4>Password</h4>
+
+                    <div class="well col-xs-12">
+                        <div class="form-group">
+                            <label class="control-label" for="old-password">Old Password:</label>
+                            <input class="form-control" data-ng-model="user.old_password" type="password" id="old-password" placeholder="Old Password">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label" for="password">Password:</label>
+                            <input class="form-control" data-ng-keyup="verifyUserPassword(user)" data-ng-model="user.new_password" type="password" id="password" placeholder="Password">
+                        </div>
+
+                        <div class="form-group" data-ng-class="{'has-error': identical === false}">
+                            <label class="control-label" for="verify-password">Verfiy Password:</label>
+                            <input class="form-control" data-ng-keyup="verifyUserPassword(user)" data-ng-model="user.verify_password"
+                                   type="password" id="verify-password" placeholder="Verify Password">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group">
+                        <button data-ng-click="cancelUserProfile()" class="btn btn-default">Cancel</button>
+                        <button data-ng-click="submitUserProfile(user)" class="btn btn-default">Submit</button>
+                    </div>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</div>

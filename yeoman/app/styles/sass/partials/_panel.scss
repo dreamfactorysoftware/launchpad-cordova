@@ -1,0 +1,60 @@
+/*
+  Custom Panel Styling
+*/
+
+.panel {
+  @for $i from 1 through 6 {
+
+    h#{$i} {
+      color: $darkcolor;
+    }
+
+  }
+
+  p {
+    color: $darkcolor;
+  }
+
+  margin-bottom: auto;
+  border-radius: 0px !important;
+
+}
+
+.panel-default {
+  border: none !important;
+}
+
+.panel-group {
+
+  border-radius: 0px !important;
+}
+
+
+.panel-heading {
+
+  border: none !important;
+  border-radius: 0px !important;
+  font-size: 2em;
+
+}
+
+
+.panel-title {
+
+  a {
+    text-decoration: none;
+  }
+
+
+}
+
+
+.panel-collapse {
+
+  border: none !important;
+
+
+  background: $darkcolor;
+
+
+}
