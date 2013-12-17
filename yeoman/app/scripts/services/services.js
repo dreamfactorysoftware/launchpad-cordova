@@ -216,7 +216,13 @@ angular.module('lpApp')
 
                     User.sessionId = user.session_id;
                     User.displayName = user.display_name;
-                    User.authenticated = true;
+                    if (User.sessionId.length > 0) {
+                        User.guestUser = false;
+                        User.authenticated = true;
+                    } else {
+                        User.guestUser = true;
+                        User.authenticated = false;
+                    }
 
                     if (StorageService.sessionStorage.save('User', User)) {
                         return true;
@@ -257,11 +263,11 @@ angular.module('lpApp')
                     var Apps = StorageService.sessionStorage.get('Apps') || {},
                         UnGrouped = {};
 
-                    Apps.appGroups = dsp.config.app_groups;
+                    Apps.appGroups = dsp.user.app_groups;
                     UnGrouped.name = dsp.UISettings.unGroupedApps.name || 'UnGrouped Apps';
                     UnGrouped.id = dsp.UISettings.unGroupedApps.id || 0;
                     UnGrouped.description = dsp.UISettings.unGroupedApps.description || 'Apps not assigned to a group.';
-                    UnGrouped.apps = dsp.config.no_group_apps;
+                    UnGrouped.apps = dsp.user.no_group_apps;
                     Apps.appGroups.push(UnGrouped);
 
                     if (StorageService.sessionStorage.save('Apps', Apps)) {
@@ -500,7 +506,7 @@ angular.module('lpApp')
 
             currentDSPUrl: '',
 
-            session: function(headers) {
+            session: function() {
 
                 return $resource(this.currentDSPUrl + '/rest/user/session');
             },
@@ -514,8 +520,6 @@ angular.module('lpApp')
 
                 return $resource(this.currentDSPUrl + '/rest/user/password');
             },
-
-
 
             register: function() {
 

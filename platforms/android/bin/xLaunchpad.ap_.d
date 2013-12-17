@@ -28,8 +28,8 @@
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/android \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/notification.js \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/android/notification.js \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/scripts/0419eb42.scripts.js \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/scripts/2d43d09e.index.js \
-/Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/scripts/518b5d97.scripts.js \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/scripts/79692008.modules.js \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/styles/44f2de25.vendor.css \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/styles/9ffb3f99.custom.css \

@@ -1,11 +1,13 @@
 <p>enter the url for the DSP you wish to connect to</p>
 
-<form data-ng-submit="getDSP(dsp)">
+<form>
+
     <div class="form-group">
         <label class="control-label" for="dsp-url">Name:</label>
         <input class="form-control" data-ng-model="dsp.name" type="text" id="dsp-name"
                placeholder="DSP Name" required>
     </div>
+
     <div class="form-group">
         <label class="control-label" for="dsp-url">URL:</label>
         <input class="form-control" data-ng-model="dsp.url" type="text" id="dsp-url"
@@ -13,6 +15,6 @@
     </div>
 
     <div class="form-group">
-        <input type="submit" id="submit" value="submit" class="btn btn-default">
+        <button type="button" data-ng-click="getDSP(dsp)" class="btn btn-default">Submit</button>
     </div>
 </form>

@@ -65,7 +65,7 @@
 
                 <div style="text-align: center; margin:auto;" data-ng-controller="NavCtrl">
                     <button style="margin-left: 15px;" type="button" class="btn btn-default navbar-btn pull-left" data-ng-click="goBack()">Back</button>
-                    <div style="display:inline-block; width: 60%; text-align: center; margin: auto;margin-top: 8px">
+                    <div style="display:inline-block; width: 50%; text-align: center; margin: auto;margin-top: 8px">
                         <div style="margin: auto;" class="form-control"><location-text location="appLocation"></location-text></div>
                     </div>
                 </div>
@@ -77,6 +77,10 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#/app-settings">Settings</a></li>
                     <li><a href="#/home">Home</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" data-ng-show="guestUser">
+                    <li><a href="#/launchpad">LaunchPad</a></li>
+                    <li><a href="#/login">Sign In</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right" data-ng-show="authenticated">
                     <li><a href="#/launchpad">LaunchPad</a></li>
@@ -120,12 +124,14 @@
         <script src="scripts/services/services.js"></script>
         <script src="scripts/directives/widget.js"></script>
         <!-- endbuild -->
-        <script type="text/javascript" src="cordova.js"></script>
+        <!-- <script type="text/javascript" src="cordova.js"></script> -->
         <!-- build:js scripts/index.js -->
-        <script type="text/javascript" src="scripts/index.js"></script>
+        <!-- <script type="text/javascript" src="scripts/index.js"></script> -->
         <!-- endbuild -->
+    <!--
         <script type="text/javascript">
             app.initialize();
         </script>
+        -->
     </body>
 </html>

@@ -10,9 +10,7 @@ angular.module('lpApp', [
                 resolve: {
                     hasDSP: ['$location', 'AppStorageService', function($location, AppStorageService){
 
-                        var dspList = AppStorageService.DSP.getAll();
-
-                        if (dspList) {
+                        if (AppStorageService.DSP.getAll()) {
 
                             $location.replace().url('/home')
 
@@ -90,31 +88,136 @@ angular.module('lpApp', [
                 templateUrl: 'views/utility/forms/get-dsp-form.html',
                 controller: 'GetDSPCtrl'
             })
+            .when('/go-to-dsp/:dsp', {
+                resolve: {
+                    getDSPConfig: ['$route', '$q', '$location', 'AppStorageService', 'UserService', 'MessageService',
+                        function ($route, $q, $location, AppStorageService, UserService, MessageService) {
+
+                            // Get the currently selected DSP info out of our localStorage
+                            var dsp = AppStorageService.DSP.get($route.current.params.dsp);
+
+                            // Is this the current DSP?
+                            if (dsp.url === AppStorageService.URL.get().currentURL) {
+
+                                // It is so just take us to launchpad for this DSP
+                                $location.replace().url('/launchpad');
+
+                                // Stop executing
+                                return false;
+                            }
+
+
+                            // This is a different DSP.
+                            // Do we need to be authorized to access?
+                            if (!dsp.config.allow_guest_user) {
+
+                                // Yes we do.  No guest users allowed
+                                // Render login page
+                                $location.replace().url('/login/' + dsp.id);
+
+                                // Stop Executing
+                                return false;
+                            }
+
+
+                            // This function is called below.
+                            // It will retrieve our guest session which will contain
+                            // what apps we have access to as a guest/unregistered user.
+                            // Use deferred because we have to operate on that data when
+                            // it comes back.  No fire and forget here.
+                            function _guestLogin () {
+
+                                var defer = $q.defer();
+
+                                UserService.session().get(
+                                    function (response) {
+                                        defer.resolve(response);
+                                    },
+                                    function (response) {
+                                        defer.reject(response)
+                                    }
+                                );
+
+                                return defer.promise;
+                            }
+
+                            // We allow guests.  Let's get the guest information
+                            // and setup the dsp for guest access.
+                            // First, we set the url for the DSP we will make a call to
+                            UserService.currentDSPUrl = dsp.url;
+
+                            // Then grab our guest session and store some info
+                            // about what we're doing in the browser sessionStorage
+                            _guestLogin().then(function (result) {
+
+                                    // Store some info about our user
+                                    // We store the session id to use in our http header.
+                                    // We also store a boolean called 'authenticated' that we use
+                                    // to show/hide UI elements
+                                    AppStorageService.User.save(result);
+
+                                    // We save our current working URL just in case we need to
+                                    // know about where we're looking
+                                    AppStorageService.URL.save(dsp);
+
+                                    // We store the result from our async call(which was deferred)
+                                    // in a variable called 'user' as it contains 'Guest User' information.
+                                    // See description of _guestLogin function above
+                                    dsp['user'] = result;
+
+                                    // This requires the dsp.user property we just assigned to sort, group,
+                                    // and store our apps for display.
+                                    AppStorageService.Apps.save(dsp);
+
+                                    // We also save the current DSP Config so we can reference it quickly
+                                    AppStorageService.Config.save(dsp);
+
+                                    // Last but not least...let's go see what we've loaded in launchpad
+                                    $location.url('/launchpad');
+
+                                    // Stop Executing
+                                    return false;
+                                },
+                                function(reason) {
+
+                                    // There was an error
+                                    // Alert the user
+                                    throw {message: 'Unable to login: ' + MessageService.getFirstMessage(reason)}
+                                });
+
+                        }]
+                }
+            })
+            .when('/login', {
+                resolve: {
+                    getDSPId: ['$location', 'AppStorageService',
+                        function($location, AppStorageService) {
+                            $location.replace().url('/login/' + AppStorageService.Config.get().id);
+                    }]
+                }
+            })
             .when('/login/:dsp', {
                 templateUrl: 'views/public/login.html',
                 controller: 'LoginCtrl',
                 resolve: {
-                    getDSPConfig: ['$route', '$http', '$q', '$location', 'AppStorageService',
-                        function($route, $http, $q, $location, AppStorageService) {
-                        var dsp =  AppStorageService.DSP.get($route.current.params.dsp);
-
-                        if (dsp.url === AppStorageService.URL.get().currentURL) {
-                            $location.replace().url('/launchpad');
-                        }
-
-                        return dsp;
+                    getDSPConfig: ['$route', '$location', 'AppStorageService',
+                        function($route, $location, AppStorageService) {
+                            return AppStorageService.DSP.get($route.current.params.dsp);
                     }]
                 }
             })
             .when('/logout', {
                 resolve: {
-                    logout:['$location', '$rootScope', 'UserService', 'StorageService',
-                        function($location, $rootScope, UserService, StorageService) {
+                    logout:['$location', '$rootScope', '$http', 'UserService', 'StorageService',
+                        function($location, $rootScope, $http, UserService, StorageService) {
 
                         StorageService.sessionStorage.clear();
                         UserService.session().delete();
+                        $http.defaults.headers.common['X-DreamFactory-Session-Token'] = '';
                         UserService.reset();
                         $rootScope.authenticated = false;
+                        $rootScope.guestUser = false;
+
                         $location.path('/');
                     }]
                 }
@@ -269,12 +372,14 @@ angular.module('lpApp', [
             angular.forEach(protectedRoutes, function(v, i) {
                 if (path === v) {
 
+                    console.log(AppStorageService.User.get().sessionId);
+
                     if (AppStorageService.User.get().sessionId) {
                         $http.defaults.headers.common['X-DreamFactory-Session-Token'] = AppStorageService.User.get().sessionId;
                     }
 
                 $rootScope.authenticated = AppStorageService.User.get().authenticated;
-
+                $rootScope.guestUser = AppStorageService.User.get().guestUser;
 
                     UserService.currentDSPUrl = AppStorageService.URL.get().currentURL;
                     UserService.session().get(
@@ -286,7 +391,6 @@ angular.module('lpApp', [
                             $location.url('/');
                         }
                     )
-
                 }
             })
         })

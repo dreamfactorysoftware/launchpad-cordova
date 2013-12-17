@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bad9c66-056c-458e-b347-e7cecf537e80" name="Default" comment="" />
+    <list default="true" id="2bad9c66-056c-458e-b347-e7cecf537e80" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/scripts/518b5d97.scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/scripts/f9002b2d.scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/www/scripts/518b5d97.scripts.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/dexedLibs/cordova-3.2.0-0b042d7443b377f855a6d058bbc8f651.jar" afterPath="$PROJECT_DIR$/platforms/android/bin/dexedLibs/cordova-3.2.0-0b042d7443b377f855a6d058bbc8f651.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad.ap_" afterPath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/scripts/app.js" afterPath="$PROJECT_DIR$/yeoman/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/build.prop" afterPath="$PROJECT_DIR$/platforms/android/bin/build.prop" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/LaunchPad/config.xml" afterPath="$PROJECT_DIR$/platforms/ios/LaunchPad/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/utility/lists/dsp-list-links.html" afterPath="$PROJECT_DIR$/yeoman/app/views/utility/lists/dsp-list-links.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/public/settings/dsp-settings-expand.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/public/settings/dsp-settings-expand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/utility/forms/get-dsp-form.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/utility/forms/get-dsp-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/public/get-started.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/public/get-started.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/index.html" afterPath="$PROJECT_DIR$/yeoman/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/scripts/controllers/public.js" afterPath="$PROJECT_DIR$/yeoman/app/scripts/controllers/public.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/scripts/services/services.js" afterPath="$PROJECT_DIR$/yeoman/app/scripts/services/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad.ap_.d" afterPath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad.ap_.d" />
+    </list>
     <ignored path="xlaunchpad.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,30 +50,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/app.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeoman/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="69" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="4380">
+            <state line="80" column="79" selection-start="3567" selection-end="3567" vertical-scroll-proportion="-10.625" vertical-offset="945" max-vertical-offset="2145">
               <folding>
-                <element signature="e#711#993#0" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1387229259000" expanded="true" signature="4277:4438" placeholder="..." />
+                <marker date="1387229259000" expanded="true" signature="4370:4406" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yeoman/.gitignore">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitattributes" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yeoman/.gitattributes">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+            <state line="367" column="14" selection-start="14692" selection-end="14692" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="6045">
               <folding />
             </state>
           </provider>
@@ -55,23 +76,23 @@
       <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/services/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="0" selection-start="4077" selection-end="4077" vertical-scroll-proportion="0.0" vertical-offset="1860" max-vertical-offset="6030">
-              <folding>
-                <element signature="e#6115#6767#0" expanded="false" />
-                <element signature="e#6787#7322#0" expanded="false" />
-                <element signature="e#7343#8760#0" expanded="false" />
-                <element signature="e#8783#9190#0" expanded="false" />
-                <element signature="e#9241#12538#0" expanded="false" />
-              </folding>
+            <state line="501" column="7" selection-start="13652" selection-end="13652" vertical-scroll-proportion="0.0" vertical-offset="1481" max-vertical-offset="9420">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="public.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/controllers/public.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="206" column="18" selection-start="6669" selection-end="6669" vertical-scroll-proportion="0.0" vertical-offset="2724" max-vertical-offset="4185">
-              <folding />
+            <state line="218" column="71" selection-start="7901" selection-end="7901" vertical-scroll-proportion="0.17938931" vertical-offset="1869" max-vertical-offset="3000">
+              <folding>
+                <element signature="e#67#305#0" expanded="false" />
+                <element signature="e#335#531#0" expanded="false" />
+                <element signature="e#562#2453#0" expanded="false" />
+                <element signature="e#2490#2627#0" expanded="false" />
+                <element signature="e#2660#2870#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,25 +104,33 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/yeoman/app/views/public/login.html" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/scripts/a18beaae.index.js" />
         <option value="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/yeoman/Gruntfile.js" />
         <option value="$PROJECT_DIR$/yeoman/index.html" />
         <option value="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
-        <option value="$PROJECT_DIR$/yeoman/app/index.html" />
         <option value="$PROJECT_DIR$/yeoman/app/scripts/index.js" />
         <option value="$PROJECT_DIR$/yeoman/app/views/public/settings/dsp-settings-expand.html" />
         <option value="$PROJECT_DIR$/yeoman/app/views/utility/forms/get-dsp-form.html" />
         <option value="$PROJECT_DIR$/yeoman/app/scripts/controllers/launchpad.js" />
         <option value="$PROJECT_DIR$/yeoman/app/views/public/get-started.html" />
-        <option value="$PROJECT_DIR$/yeoman/app/scripts/controllers/public.js" />
-        <option value="$PROJECT_DIR$/yeoman/app/scripts/services/services.js" />
+        <option value="$PROJECT_DIR$/yeoman/app/views/utility/lists/dsp-list-links.html" />
+        <option value="$PROJECT_DIR$/yeoman/app/index.html" />
         <option value="$PROJECT_DIR$/yeoman/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/yeoman/app/scripts/services/services.js" />
+        <option value="$PROJECT_DIR$/yeoman/app/scripts/controllers/public.js" />
       </list>
     </option>
   </component>
@@ -110,7 +139,7 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -136,6 +165,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,24 +183,9 @@
               <option name="myItemId" value="xlaunchpad" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yeoman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xlaunchpad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xlaunchpad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,8 +194,8 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../blaunchpad" />
     <property name="FullScreen" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -256,6 +271,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2bad9c66-056c-458e-b347-e7cecf537e80" name="Default" comment="" />
@@ -266,27 +298,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32889965" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6711004" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -296,79 +329,85 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
+    <MESSAGE value="Auto login guest.  Add sign in after connection to DSP.  Commented out cordova.js, index.js, and app.init() in index.html.  Must be uncommented to build." />
+    <option name="LAST_COMMIT_MESSAGE" value="Auto login guest.  Add sign in after connection to DSP.  Commented out cordova.js, index.js, and app.init() in index.html.  Must be uncommented to build." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/cordova.js">
+    <entry file="file://$PROJECT_DIR$/yeoman/app/views/public/get-started.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="26235">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/config.xml">
+    <entry file="file://$PROJECT_DIR$/yeoman/app/views/public/settings/dsp-settings-expand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="91" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.7548387" vertical-offset="0" max-vertical-offset="775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/yeoman/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="69" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.22900763" vertical-offset="0" max-vertical-offset="786">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/yeoman/app/styles/df-custom-bs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="399" column="23" selection-start="12206" selection-end="12206" vertical-scroll-proportion="0.0" vertical-offset="5741" max-vertical-offset="6540">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-16.27159" vertical-offset="13001" max-vertical-offset="13800">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/android/assets/www/index.html">
+    <entry file="file://$PROJECT_DIR$/yeoman/app/styles/stylesheets/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="20" selection-start="4094" selection-end="4094" vertical-scroll-proportion="0.6653543" vertical-offset="843" max-vertical-offset="1605">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1386964736000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386964736000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="20" selection-start="4422" selection-end="4422" vertical-scroll-proportion="-16.666666" vertical-offset="1100" max-vertical-offset="2055">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1386874897000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1386874897000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="8" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.3379224" vertical-offset="0" max-vertical-offset="799">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.3554442" vertical-offset="2681" max-vertical-offset="3480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/views/utility/forms/get-dsp-form.html">
+    <entry file="file://$PROJECT_DIR$/yeoman/app/styles/sass/partials/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.058064517" vertical-offset="0" max-vertical-offset="775">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/styles/sass/partials/_panel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.3" vertical-offset="225" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/styles/sass/partials/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.58" vertical-offset="435" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/styles/sass/partials/_app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/views/utility/lists/dsp-list-links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="24" selection-start="53" selection-end="53" vertical-scroll-proportion="0.019354839" vertical-offset="0" max-vertical-offset="775">
           <folding />
         </state>
       </provider>
@@ -380,60 +419,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/views/public/get-started.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="120">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/views/public/settings/dsp-settings-expand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="91" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.7548387" vertical-offset="0" max-vertical-offset="775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/controllers/public.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="206" column="18" selection-start="6669" selection-end="6669" vertical-scroll-proportion="0.0" vertical-offset="2724" max-vertical-offset="4185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/services/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="0" selection-start="4077" selection-end="4077" vertical-scroll-proportion="0.0" vertical-offset="1860" max-vertical-offset="6030">
+        <state line="501" column="7" selection-start="13652" selection-end="13652" vertical-scroll-proportion="0.0" vertical-offset="1481" max-vertical-offset="9420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="79" selection-start="3567" selection-end="3567" vertical-scroll-proportion="-10.625" vertical-offset="945" max-vertical-offset="2145">
           <folding>
-            <element signature="e#6115#6767#0" expanded="false" />
-            <element signature="e#6787#7322#0" expanded="false" />
-            <element signature="e#7343#8760#0" expanded="false" />
-            <element signature="e#8783#9190#0" expanded="false" />
-            <element signature="e#9241#12538#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1387229259000" expanded="true" signature="4277:4438" placeholder="..." />
+            <marker date="1387229259000" expanded="true" signature="4370:4406" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="69" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="4380">
+        <state line="367" column="14" selection-start="14692" selection-end="14692" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/controllers/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="218" column="71" selection-start="7901" selection-end="7901" vertical-scroll-proportion="0.17938931" vertical-offset="1869" max-vertical-offset="3000">
           <folding>
-            <element signature="e#711#993#0" expanded="false" />
+            <element signature="e#67#305#0" expanded="false" />
+            <element signature="e#335#531#0" expanded="false" />
+            <element signature="e#562#2453#0" expanded="false" />
+            <element signature="e#2490#2627#0" expanded="false" />
+            <element signature="e#2660#2870#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
         </state>
       </provider>
     </entry>
