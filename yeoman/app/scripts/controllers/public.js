@@ -221,23 +221,38 @@ angular.module('lpApp')
 
             });
         }])
-    .controller('GetDSPCtrl', ['$scope', '$q', '$rootScope', '$location', 'SystemService', 'AppStorageService',
-        function ($scope, $q, $rootScope, $location, SystemService, AppStorageService) {
+    .controller('GetDSPCtrl', ['$scope', '$q', '$rootScope', '$location', 'SystemService', 'AppStorageService', 'AppStrings',
+        function ($scope, $q, $rootScope, $location, SystemService, AppStorageService, AppStrings) {
 
             // Set Location Bar
-            $rootScope.appLocation = "Add A DSP";
+            $rootScope.appLocation = "DSP Setup";
 
+            // Access text for the page
+            $scope.pageText = AppStrings.getDSPStrings;
+
+            // Access buttons text for page
+            $scope.buttonsText = AppStrings.getButtonStrings;
+
+            // Initialize and empty object to hold our DSP info
             $scope.dsp = {};
 
 
-            // Public API
-
+            // PUBLIC API
+            // Facade for the ui.  Corresponds to ng-click/ng-submit functions
+            // This should be self explanatory
             $scope.getDSP = function (dsp) {
                 $scope.$broadcast('dsp:get', dsp);
             };
 
-            // Private API
 
+
+            // PRIVATE API
+
+            // We need the DSP config so we pass in the dsp
+            // that we want to contact and use the dsp.url
+            // which we entered in the form
+            // Use deferred because we want to operate on this
+            // after we get it.
             $scope._getDSP = function(dsp) {
 
                 var defer = $q.defer();
@@ -254,10 +269,14 @@ angular.module('lpApp')
             };
 
 
-            // Messages
+            // MESSAGES
 
+            // We received the dsp:get message
             $scope.$on('dsp:get', function (e, dsp) {
 
+                // We pass in the DSP variable that was built from the UI
+                // and passed through the $broadcast
+                // Then we attach a few more properties and initialize them
                 $scope._getDSP(dsp).then(
                     function (result) {
                         dsp.config = result;
@@ -267,13 +286,17 @@ angular.module('lpApp')
                             unGroupedApps: {}
                         };
 
+                        // We save the results to localStorage
                         AppStorageService.DSP.save(dsp);
+
+                        // and redirect back to the root(this will work out redirecting to /home)
                         $location.url('/');
 
                     },
                     function (reason) {
+
+                        // We were unable to connect to the DSP so we alert the user
                         throw {message: 'Unable to connect ' + dsp.name + ' at ' + dsp.url}
                     });
-
             })
         }]);

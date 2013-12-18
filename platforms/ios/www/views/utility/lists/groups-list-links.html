@@ -1,14 +1,31 @@
 <ul class="mobile-dsp-list">
     <a href="#/launchpad/{{group.id}}" data-ng-repeat="group in groups.appGroups">
         <li>
-            <h3>{{group.name}}</h3>
-            <p>{{group.description}}</p>
+            <div class="row">
+                <div class="col-xs-3">
+
+
+                </div>
+
+                <div class="col-xs-9">
+                    <h3>{{group.name}}</h3>
+                    <p>{{group.description}}</p>
+                </div>
+
+            </div>
         </li>
     </a>
+    <!--
     <a href="#/launchpad/{{group.id}}" data-ng-repeat="group in groups.unGrouped">
         <li>
-            <h3>{{group.name}}</h3>
-            <p>{{group.description}}</p>
+            <div class="row">
+                <div class="col-xs-3" style="display:inline-block; height: 100%; width: 100%; background:#fff;">asdf</div>
+                <div class="col-xs-9">
+                    <h3>{{group.name}}</h3>
+                    <p>{{group.description}}</p>
+                </div>
+            </div>
         </li>
     </a>
 </ul>
+    -->

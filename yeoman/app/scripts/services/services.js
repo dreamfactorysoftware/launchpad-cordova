@@ -23,6 +23,35 @@ angular.module('lpApp')
             }
         }
     }])
+    .factory('AppStrings', [function() {
+
+        return {
+
+            getButtonStrings: {
+                submit: {
+                    value: 'Submit',
+                    text: 'Submit'
+                }
+            },
+
+            getDSPStrings: {
+                title: 'Connect',
+                description: 'Enter a name and url for the DSP you wish to connect to.  The name can be anything you want to reference this DSP.',
+                form: {
+                    dspName: {
+                        label: 'Name',
+                        placeholder: 'Enter DSP Name'
+                    },
+                    dspURL: {
+                        label: 'URL',
+                        placeholder: 'Enter DSP Url'
+                    }
+                }
+            }
+
+
+        }
+    }])
     .factory('StringService', [function() {
 
         return {

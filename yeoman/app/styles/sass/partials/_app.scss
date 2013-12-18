@@ -1,27 +1,93 @@
-
+$smPadding: 10px;
+$mdPadding: 20px;
+$lgPadding: 50px;
 
 /*
-  Iframe App Containers
+
 */
 
-#app-container {
-
-  position: absolute;
-  top: 130px;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 1000;
-  display: none;
-
-
-  iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-
-  }
+#main-app-container {
 
 
 }
 
+
+/*
+  Navbar
+*/
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+/*
+  Utility Classes
+*/
+
+/* Padding */
+
+.sm-pad-all {
+  padding: $smPadding;
+}
+
+.sm-pad-horizontal {
+  padding-left: $smPadding;
+  padding-right: $smPadding
+}
+
+.sm-pad-vertical {
+  padding-top: $smPadding;
+  padding-bottom: $smPadding
+}
+
+.sm-pad-top {
+  padding-top: $smPadding;
+}
+
+.sm-pad-bottom {
+  padding-bottom: $smPadding
+}
+
+.md-pad-all {
+  padding: $mdPadding;
+}
+
+.md-pad-horizontal {
+  padding-left: $mdPadding;
+  padding-right: $smPadding;
+}
+
+.md-pad-vertical {
+  padding-top: $mdPadding;
+  padding-bottom: $mdPadding;
+}
+
+.md-pad-top {
+  padding-top: $mdPadding;
+}
+
+.md-pad-bottom {
+  padding-bottom: $mdPadding;
+}
+
+.lg-pad-all {
+  padding: $lgPadding
+}
+
+.lg-pad-horizontal {
+  padding-left: $lgPadding;
+  padding-right: $lgPadding;
+}
+
+.lg-pad-vertical {
+  padding-top: $lgPadding;
+  padding-bottom: $lgPadding;
+}
+
+.lg-pad-top {
+  padding-top: $lgPadding;
+}
+
+.lg-pad-bottom {
+  padding-bottom: $lgPadding;
+}

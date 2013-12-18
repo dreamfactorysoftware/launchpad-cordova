@@ -36,7 +36,7 @@
 
         <link rel="stylesheet" href="styles/44f2de25.vendor.css">
 
-        <link rel="stylesheet" href="styles/9ffb3f99.custom.css">
+        <link rel="stylesheet" href="styles/9205ae44.custom.css">
         <title>LaunchPad</title>
     </head>
     <body>
@@ -68,6 +68,10 @@
                     <li><a href="#/app-settings">Settings</a></li>
                     <li><a href="#/home">Home</a></li>
                 </ul>
+                <ul class="nav navbar-nav navbar-right" data-ng-show="guestUser">
+                    <li><a href="#/launchpad">LaunchPad</a></li>
+                    <li><a href="#/login">Sign In</a></li>
+                </ul>
                 <ul class="nav navbar-nav navbar-right" data-ng-show="authenticated">
                     <li><a href="#/launchpad">LaunchPad</a></li>
                     <li><a href="#/profile">Profile</a></li>
@@ -92,13 +96,13 @@
         </div>
         <script src="scripts/79692008.modules.js"></script>
 
-        <script src="scripts/0419eb42.scripts.js"></script>
-        <!-- <script type="text/javascript" src="cordova.js"></script> -->
+        <script src="scripts/1fa487fb.scripts.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
         <script src="scripts/2d43d09e.index.js"></script>
-    <!--
+
         <script type="text/javascript">
             app.initialize();
         </script>
-        -->
+        
     </body>
 </html></html>
