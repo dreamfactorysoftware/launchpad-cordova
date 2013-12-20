@@ -1,8 +1,28 @@
-<ul class="mobile-dsp-list">
-    <a data-ng-click="launchApp(app)" data-ng-repeat="app in group.apps">
-        <li class="md-pad-horizontal">
-            <h3>{{app.name}}</h3>
-            <p>{{app.description}}</p>
-        </li>
-    </a>
-</ul>
+<!--
+<div class="centered">
+    <div class="tiles-container">
+        <ul class="mobile-dsp-list-tiles">
+            <a data-ng-click="launchApp(app)" data-ng-repeat="app in group.apps">
+                <li>
+                    <h3 class="skinny">{{app.name}}</h3>
+                    <!-- <p>{{app.description}}</p>
+                </li>
+            </a>
+        </ul>
+    </div>
+</div>
+-->
+<div class="ms-pad-top">
+    <ul class="mobile-dsp-list-tiles">
+        <a>
+            <li hm-tap="singleTap(app)" hm-hold="holdApp(app)" data-ng-repeat="app in group.apps">
+                <div>
+                    <h3 class="skinny">{{app.name}}</h3>
+                    <!-- <p>{{dsp.url}}</p> -->
+                </div>
+            </li>
+        </a>
+    </ul>
+</div>
+
+

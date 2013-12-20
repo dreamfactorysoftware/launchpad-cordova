@@ -1,14 +1,14 @@
 'use strict';
 
 angular.module('lpApp')
-    .directive('locationText', ['$rootScope', function($rootScope) {
+    .directive('pageHeader', [function() {
         return {
             restrict: 'E',
             scope: {
-                locationText: '=location'
+                title: '=title',
+                description: '=description'
             },
-            template:'{{locationText}}'
+            template:'<h2 class="pageText">{{title}}</h2><hr /><p class="pageText">{{description}}</p>'
         }
     }]);
-
 

@@ -22,8 +22,7 @@ module.exports = function (grunt) {
         // configurable paths
         yeoman: {
             app: 'app',
-            dist: '../www',
-            platform:'../platforms'
+            dist: '../www'
         },
         watch: {
             cordova: {
@@ -284,17 +283,9 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'images/{,*/}*.{webp,gif}',
                         'styles/fonts/{,*/}*.*',
-                        'views/**'
+                        'views/**',
+                        'img/**'
                     ]
-                }]
-            },
-            platform: {
-                files:[{
-                    expand: true,
-                    dot: true,
-                    cwd: '<%= yeoman.platform %>/' + cordovaConfig.platform,
-                    dest: '<%= yeoman.dist %>/platform',
-                    src: ['./**/*.*']
                 }]
             },
             styles: {

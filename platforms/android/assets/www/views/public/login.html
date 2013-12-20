@@ -1,19 +1,12 @@
-<p>This is the loginpage view.</p>
-
-<ng-include src="'views/utility/forms/login-form.html'"></ng-include>
 
 
-<div data-ng-show="(currentDSP.config.allow_guest_user && currentDSP.UISettings.guestUsers) ||
- (currentDSP.config.allow_open_registration && currentDSP.UISettings.openRegistration) ? true : false">
-
-    <h3>Account</h3>
-    <div data-ng-show="currentDSP.config.allow_open_registration && currentDSP.UISettings.openRegistration ? true : false">
-        <p>Need an Account?</p>
-        <button type="button" class="btn btn-default">Create Account</button>
-    </div>
-
-    <div data-ng-show="currentDSP.config.allow_guest_user && currentDSP.UISettings.guestUsers ? true : false">
-        <p>Sign in as a guest.</p>
-        <button type="button" data-ng-click="guestLogin()"class="btn btn-default">Guest Sign In</button>
+<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+    <div class="row">
+        <div class="centered">
+            <div class="tiles-container">
+                <page-header title="pageText.title" description="pageText.description"></page-header>
+                <ng-include src="'views/utility/forms/login-form.html'"></ng-include>
+            </div>
+        </div>
     </div>
 </div>

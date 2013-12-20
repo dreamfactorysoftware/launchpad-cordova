@@ -26,83 +26,128 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js"> <!--<![endif]-->
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <!-- <meta name="viewport" content="width=device-width"> -->
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="styles/44f2de25.vendor.css">
+    <link rel="stylesheet" href="styles/css/44f2de25.vendor.css">
 
-        <link rel="stylesheet" href="styles/9205ae44.custom.css">
-        <title>LaunchPad</title>
-    </head>
-    <body>
+    <link rel="stylesheet" href="styles/1ad99e29.custom.css">
+    <title>LaunchPad</title>
+</head>
+<body ontouchstart="">
 
-    <div data-ng-app="lpApp">
-        <!-- Nav -->
-        <nav class="navbar navbar-default" role="navigation">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-
-                <div style="text-align: center; margin:auto" data-ng-controller="NavCtrl">
-                    <button style="margin-left: 15px" type="button" class="btn btn-default navbar-btn pull-left" data-ng-click="goBack()">Back</button>
-                    <div style="display:inline-block; width: 50%; text-align: center; margin: auto;margin-top: 8px">
-                        <div style="margin: auto" class="form-control"><location-text location="appLocation"></location-text></div>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div style="text-align:left" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#/app-settings">Settings</a></li>
-                    <li><a href="#/home">Home</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right" data-ng-show="guestUser">
-                    <li><a href="#/launchpad">LaunchPad</a></li>
-                    <li><a href="#/login">Sign In</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right" data-ng-show="authenticated">
-                    <li><a href="#/launchpad">LaunchPad</a></li>
-                    <li><a href="#/profile">Profile</a></li>
-                    <li><a href="#/logout">Logout</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+<div data-ng-app="lpApp">
+    <div id="wrap">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <img src="img/logo/df_logo_txt.png" width="140px" style="margin-top: 14px; margin-left: 10px">
         </nav>
 
         <!-- Add your site or application content here -->
         <div id="main-app-container" class="container" data-ng-view=""></div>
+    </div>
 
-        <!--[if lt IE 7]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
-            your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <div id="footer">
+        <div class="container">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                <div class="row">
+                    <ul>
+                        <!-- Always visible icons.  App Navigation-->
+                        <a data-ng-click="goBack()" data-ng-controller="NavCtrl">
+                            <li class="col-xs-2">
+                                <p><i class="fa fa-arrow-circle-left fa-1-7"></i></p>
 
-        <!--[if lt IE 9]>
-        <script src="bower_components/es5-shim/es5-shim.js"></script>
-        <script src="bower_components/json3/lib/json3.min.js"></script>
-        <![endif]-->
+                                <p>Back</p>
+                            </li>
+                        </a>
+
+                        <a href="#/app-settings">
+                            <li class="col-xs-2">
+                                <p><i class="fa fa-cog fa-1-7"></i></p>
+
+                                <p>Settings</p>
+                            </li>
+                        </a>
+
+                        <a href="#/home">
+                            <li class="col-xs-2">
+                                <p><i class="fa fa-home fa-1-7"></i></p>
+
+                                <p>Home</p>
+                            </li>
+                        </a>
+
+                        <!-- Guest DSP Navigation.  Visible under guest login -->
+                        <a data-ng-show="guestUser" href="#/launchpad">
+                            <li class="col-xs-2">
+                                <p><i class="fa fa-th fa-1-7"></i></p>
+
+                                <p>Apps</p>
+                            </li>
+                        </a>
+                        <a data-ng-show="guestUser" href="#/login">
+                            <li class="col-xs-2">
+                                <p><i class="fa fa-sign-in fa-1-7"></i></p>
+
+                                <p>Login</p>
+                            </li>
+                        </a>
+
+                        <!-- Signed in user DSP navigation.  Visible when signed in to DSP -->
+                        <a data-ng-show="authenticated" href="#/launchpad">
+                            <li class="col-xs-2">
+                                <p><i class="fa fa-th fa-1-7"></i></p>
+
+                                <p>Apps</p>
+                            </li>
+                        </a>
+                        <a data-ng-show="authenticated" href="#/profile">
+                            <li class="col-xs-2">
+                                <p><i class="fa fa-user fa-1-7"></i></p>
+
+                                <p>Profile</p>
+                            </li>
+                        </a>
+                        <a data-ng-show="authenticated" href="#/logout">
+                            <li class="col-xs-2">
+                                <p><i class="fa fa-sign-out fa-1-7"></i></p>
+
+                                <p>Logout</p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <script src="scripts/79692008.modules.js"></script>
+    </div>
 
-        <script src="scripts/1fa487fb.scripts.js"></script>
+
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+        your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+</div>
+<script src="scripts/2e33852a.modules.js"></script>
+
+<script src="scripts/7b946bc9.scripts.js"></script>
+
+
         <script type="text/javascript" src="cordova.js"></script>
         <script src="scripts/2d43d09e.index.js"></script>
 
         <script type="text/javascript">
             app.initialize();
         </script>
-        
-    </body>
+
+</body>
 </html></html>

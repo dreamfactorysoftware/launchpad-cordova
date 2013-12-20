@@ -2,7 +2,8 @@
 
 angular.module('lpApp', [
         'ngRoute',
-        'ngResource'
+        'ngResource',
+        'hmTouchEvents'
     ])
     .config(['$routeProvider', function ($routeProvider) {
         $routeProvider
@@ -20,13 +21,13 @@ angular.module('lpApp', [
                     }]
                 }
             })
+            .when('/welcome', {
+                templateUrl: 'views/public/welcome.html',
+                controller: 'WelcomeCtrl'
+            })
             .when('/get-started', {
                 templateUrl: 'views/public/get-started.html',
-                resolve: {
-                    setAppLocation: ['$rootScope', function($rootScope) {
-                        $rootScope.appLocation = 'Get Started'
-                    }]
-                }
+                controller: 'GetStartedCtrl'
             })
             .when('/home', {
                 templateUrl:'views/public/home.html',
@@ -35,6 +36,39 @@ angular.module('lpApp', [
                     getDSPList: ['AppStorageService', '$q', '$location', function(AppStorageService, $q, $location) {
 
                         var dspList = AppStorageService.DSP.getAll();
+
+                        angular.forEach(dspList, function(obj) {
+
+                            if(!obj['modes']) {
+                                obj['modes'] = {
+                                    length: 0,
+                                    currentMode: 0,
+                                    add: function(mode) {
+                                        Array.prototype.push.call(this, mode)
+                                    },
+                                    next: function() {
+                                        if (this.currentMode === (this.length-1)) {
+                                            this.currentMode = 0;
+                                        }
+                                        else {
+                                            this.currentMode++
+                                        }
+                                    },
+
+                                    previous: function() {
+                                        if (this.currentMode === 0) {
+                                            this.currentMode = this.length -1
+                                        }
+                                        else {
+                                            this.currentMode--
+                                        }
+                                    }
+
+                                };
+                                obj.modes.add('Home');
+                                obj.modes.add('Settings');
+                            }
+                        });
 
                         if (dspList) {
                             return dspList;
@@ -48,18 +82,8 @@ angular.module('lpApp', [
                     }]
                 }
             })
-            .when('/welcome', {
-                templateUrl: 'views/public/welcome.html',
-                resolve: {
-                    setAppLocation: ['$rootScope', function($rootScope) {
-
-                        $rootScope.appLocation = 'Welcome to Launchpad!'
-
-                    }]
-                }
-            })
             .when('/app-settings', {
-                templateUrl: 'views/public/app-settings.html',
+                templateUrl: 'views/public/settings/app-settings.html',
                 controller: 'AppSettingsCtrl'
             })
             .when('/dsp-settings', {
@@ -84,9 +108,9 @@ angular.module('lpApp', [
                     }]
                 }
             })
-            .when('/get-dsp-form', {
-                templateUrl: 'views/utility/forms/get-dsp-form.html',
-                controller: 'GetDSPCtrl'
+            .when('/connect-to-dsp', {
+                templateUrl: 'views/public/connect-to-dsp.html',
+                controller: 'ConnectDSPCtrl'
             })
             .when('/go-to-dsp/:dsp', {
                 resolve: {
@@ -243,7 +267,47 @@ angular.module('lpApp', [
                 resolve: {
                     getApps: ['$route', 'AppStorageService', function($route, AppStorageService) {
 
-                        return AppStorageService.Apps.getAppsFromGroup($route.current.params.groupId);
+                        var group = AppStorageService.Apps.getAppsFromGroup($route.current.params.groupId);
+
+
+                        angular.forEach(group.apps, function(obj) {
+
+                            if (!obj['modes']) {
+
+                                obj['modes'] = {
+                                    length: 0,
+                                    currentMode: 0,
+                                    add: function(mode) {
+                                        Array.prototype.push.call(this, mode);
+
+                                    },
+                                    next: function() {
+                                        if (this.currentMode === (this.length-1)) {
+                                            this.currentMode = 0;
+                                        }
+                                        else {
+                                            this.currentMode++
+                                        }
+                                    },
+
+                                    previous: function() {
+                                        if (this.currentMode === 0) {
+                                            this.currentMode = this.length -1
+                                        }
+                                        else {
+                                            this.currentMode--
+                                        }
+                                    }
+                                }
+
+                                obj.modes.add('Home');
+                                obj.modes.add('Description');
+                            }
+
+                        });
+
+
+                        return group;
                     }],
 
                     getDSPInfo: ['AppStorageService', function(AppStorageService) {
@@ -251,6 +315,17 @@ angular.module('lpApp', [
                         return AppStorageService.Config.get();
                     }]
 
+                }
+            })
+            .when('/app-detail/:groupId/:appId', {
+                templateUrl: 'views/app-detail.html',
+                controller: 'AppDetailCtrl',
+                resolve: {
+                    getAppInfo: ['$route', 'AppStorageService', function($route, AppStorageService) {
+
+                        return  AppStorageService.Apps.getSingleApp($route.current.params.groupId, $route.current.params.appId);
+
+                    }]
                 }
             })
             .when('/profile', {
@@ -371,8 +446,6 @@ angular.module('lpApp', [
 
             angular.forEach(protectedRoutes, function(v, i) {
                 if (path === v) {
-
-                    console.log(AppStorageService.User.get().sessionId);
 
                     if (AppStorageService.User.get().sessionId) {
                         $http.defaults.headers.common['X-DreamFactory-Session-Token'] = AppStorageService.User.get().sessionId;

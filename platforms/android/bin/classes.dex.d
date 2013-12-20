@@ -25,4 +25,17 @@
 /Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/dialogs/Notification$5$1.class \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/dialogs/Notification$5.class \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/dialogs/Notification.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$1.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$2.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$3.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$4.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$1.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$2.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$3.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$4.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5$5.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$5.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser$InAppBrowserClient.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppBrowser.class \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/bin/classes/org/apache/cordova/inappbrowser/InAppChromeClient.class \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/bin/dexedLibs/cordova-3.2.0-0b042d7443b377f855a6d058bbc8f651.jar \

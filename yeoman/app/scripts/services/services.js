@@ -10,7 +10,17 @@ angular.module('lpApp')
                         return true;
                 }
                 return false;
+            },
+
+            extend: function(destination, source) {
+                for (var property in source) {
+                    if (source.hasOwnProperty(property)) {
+                        destination[property] = source[property];
+                    }
+                }
+                return destination;
             }
+
         }
     }])
     .factory('UrlService', [function() {
@@ -34,6 +44,25 @@ angular.module('lpApp')
                 }
             },
 
+            getWelcomeStrings: {
+                title: 'Welcome to DreamFactory'
+            },
+
+            getHomeStrings: {
+                title: 'Home',
+                description: 'Available DSPs.'
+            },
+
+            getAppSettingsStrings: {
+                title: 'App Settings',
+                description: 'Administration for this application.'
+            },
+
+            getConnectDSPStrings: {
+                title: 'Connect a DSP',
+                description: 'Add a new DreamFactory Services Platform to your home page.'
+            },
+
             getDSPStrings: {
                 title: 'Connect',
                 description: 'Enter a name and url for the DSP you wish to connect to.  The name can be anything you want to reference this DSP.',
@@ -47,9 +76,38 @@ angular.module('lpApp')
                         placeholder: 'Enter DSP Url'
                     }
                 }
+            },
+
+            getLoginStrings: {
+                title: "Sign In",
+                description: "Sign in to this DSP.",
+                form: {
+                    email: {
+                        label: 'Email',
+                        placeholder: 'Enter Email'
+                    },
+                    password: {
+                        label: 'Password',
+                        placeholder: 'Enter Password'
+                    }
+
+                }
+            },
+
+            getLaunchPadStrings: {
+                title: 'DSP Home',
+                description: 'App Groups and ungrouped apps.'
+            },
+
+            getLaunchPadGroupStrings: {
+                title: 'Group',
+                description: 'App Group'
+            },
+
+            getAppInfoStrings: {
+                title: 'App Info',
+                description: 'Default App Info'
             }
-
-
         }
     }])
     .factory('StringService', [function() {
@@ -205,6 +263,7 @@ angular.module('lpApp')
                     }
                 },
 
+                /*
                 UISettings: {
 
                     save: function(dsp, settings) {
@@ -220,6 +279,7 @@ angular.module('lpApp')
                         throw {message:'Unable to save ' + dsp.name + ' UI settings'}
                     }
                 },
+                */
 
                 UserSettings: {
 
@@ -289,15 +349,15 @@ angular.module('lpApp')
             Apps: {
 
                 save: function(dsp) {
-                    var Apps = StorageService.sessionStorage.get('Apps') || {},
-                        UnGrouped = {};
+                    var Apps = StorageService.sessionStorage.get('Apps') || {};
 
                     Apps.appGroups = dsp.user.app_groups;
-                    UnGrouped.name = dsp.UISettings.unGroupedApps.name || 'UnGrouped Apps';
-                    UnGrouped.id = dsp.UISettings.unGroupedApps.id || 0;
-                    UnGrouped.description = dsp.UISettings.unGroupedApps.description || 'Apps not assigned to a group.';
-                    UnGrouped.apps = dsp.user.no_group_apps;
-                    Apps.appGroups.push(UnGrouped);
+                    // UnGrouped.name = dsp.UISettings.unGroupedApps.name || 'UnGrouped Apps';
+                    // UnGrouped.id = dsp.UISettings.unGroupedApps.id || 0;
+                    // UnGrouped.description = dsp.UISettings.unGroupedApps.description || 'Apps not assigned to a group.';
+                    // UnGrouped = dsp.user.no_group_apps;
+                    Apps['Ungrouped'] = dsp.user.no_group_apps;
+
 
                     if (StorageService.sessionStorage.save('Apps', Apps)) {
                         return true;
@@ -323,6 +383,25 @@ angular.module('lpApp')
                         }
                     });
                     return Apps;
+                },
+
+                getSingleApp: function(groupId, appId) {
+
+                    var allApps = this.get(),
+                        apps = groupId === 'ungrouped' ? allApps.Ungrouped : this.getAppsFromGroup(groupId).apps,
+                        app = {};
+
+                    angular.forEach(apps, function(obj) {
+                        if (obj.id == appId) {
+                            app = obj;
+                        }
+                    });
+
+                    if (app) {
+                        return app;
+                    }
+
+                    throw {message: 'Unable to find app detail for '}
                 }
 
             },
@@ -568,16 +647,7 @@ angular.module('lpApp')
             }
         }
     }])
-    .factory('NotificationService', ['CordovaReady', '$rootScope', function(CordovaReady, $rootScope) {
-
-        function extend(destination, source) {
-            for (var property in source) {
-                if (source.hasOwnProperty(property)) {
-                    destination[property] = source[property];
-                }
-            }
-            return destination;
-        }
+    .factory('NotificationService', ['CordovaReady', '$rootScope', 'ObjectService', function(CordovaReady, $rootScope, ObjectService) {
 
         return {
 
@@ -609,7 +679,7 @@ angular.module('lpApp')
                     buttonLabels: ['OK', 'Cancel']
                 };
 
-                options = extend(defaults, options);
+                options = ObjectService.extend(defaults, options);
 
                 navigator.notification.confirm(
                     options.message,
@@ -647,5 +717,3 @@ angular.module('lpApp')
             };
         };
     }]);
-
-

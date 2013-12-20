@@ -1,0 +1,70 @@
+<div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+    <div class="row">
+        <div class="centered">
+            <div class="tiles-container">
+                <page-header title="pageText.title" description="pageText.description"></page-header>
+                <h4 class="pageText">Description:</h4>
+                <p class="pageText md-pad-bottom">{{pageText.info.description}}</p>
+
+                <div class="well dark">
+                    <button class="btn btn-default btn-success btn-lg btn-block" data-ng-click="launchApp()">Launch App</button>
+                </div>
+                <div class="well dark">
+                    <button class="btn btn-default btn-primary btn-lg btn-block" data-ng-click="moreDetail()">More Info</button>
+                </div>
+                <table class="table" data-ng-show="moreInfoData ? true : false">
+                    <tbody>
+                    <tr>
+                        <td>
+                            Name
+                        </td>
+                        <td>
+                            {{pageText.info.name}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            API Name
+                        </td>
+                        <td>
+                            {{pageText.info.name}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Id
+                        </td>
+                        <td>
+                            {{pageText.info.id}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Launch Url
+                        </td>
+                        <td>
+                            {{pageText.info.launch_url}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Default App
+                        </td>
+                        <td>
+                            {{pageText.info.is_default}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            External URL
+                        </td>
+                        <td>
+                            {{pageText.info.is_url_external}}
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

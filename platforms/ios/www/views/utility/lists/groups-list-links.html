@@ -1,9 +1,12 @@
+<!--
 <ul class="mobile-dsp-list">
     <a href="#/launchpad/{{group.id}}" data-ng-repeat="group in groups.appGroups">
         <li>
             <div class="row">
-                <div class="col-xs-3">
-
+                <div class="col-xs-3" style="height: 80px; padding-right: 0 !important">
+                    <div class="" style="background: #fff; height: 100%; display:block; text-align: center;">
+                        <i style="" class="fa fa-folder fa-5x"></i>
+                    </div>
 
                 </div>
 
@@ -15,17 +18,38 @@
             </div>
         </li>
     </a>
-    <!--
-    <a href="#/launchpad/{{group.id}}" data-ng-repeat="group in groups.unGrouped">
-        <li>
-            <div class="row">
-                <div class="col-xs-3" style="display:inline-block; height: 100%; width: 100%; background:#fff;">asdf</div>
-                <div class="col-xs-9">
-                    <h3>{{group.name}}</h3>
-                    <p>{{group.description}}</p>
-                </div>
-            </div>
-        </li>
-    </a>
-</ul>
     -->
+<!--
+<a href="#/launchpad/{{group.id}}" data-ng-repeat="group in groups.unGrouped">
+    <li>
+        <div class="row">
+            <div class="col-xs-3" style="display:inline-block; height: 100%; width: 100%; background:#fff;">asdf</div>
+            <div class="col-xs-9">
+                <h3>{{group.name}}</h3>
+                <p>{{group.description}}</p>
+            </div>
+        </div>
+    </li>
+</a>
+</ul>
+-->
+<div class="md-pad-top">
+    <ul class="mobile-dsp-list-tiles">
+        <a>
+            <li hm-tap="singleTapGroup(group)" data-ng-repeat="group in groups.appGroups">
+                <div>
+                    <h3 class="skinny">{{group.name}}</h3>
+                    <!-- <p>{{dsp.url}}</p> -->
+                </div>
+            </li>
+        </a>
+        <a>
+            <li hm-tap="singleTapApp(app)" hm-hold="holdApp(app)" data-ng-repeat="app in groups.Ungrouped">
+                <div>
+                    <h3 class="skinny">{{app.name}}</h3>
+                    <!-- <p>{{dsp.url}}</p> -->
+                </div>
+            </li>
+        </a>
+    </ul>
+</div>

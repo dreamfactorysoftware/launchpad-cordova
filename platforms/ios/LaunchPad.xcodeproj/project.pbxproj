@@ -42,6 +42,7 @@
 		ED7E6F71756E4D5FA1ADB154 /* CDVNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 296CE2D32C0444299E860583 /* CDVNotification.m */; };
 		8FEB9440EA154DA8ADDC146C /* CDVNotification.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD7DF4081CD647DE8C90A4C0 /* CDVNotification.bundle */; };
 		523239C8B0CC4D15850EF63E /* AudioToolbox.framework in Resources */ = {isa = PBXBuildFile; fileRef = 8F438501472A4734841C5902 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6A582531EFBF455980081822 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD46D2A934E4EDEB3DA3ACC /* CDVInAppBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +108,8 @@
 		E75A33D19C7A43B4B3E4B6C4 /* CDVNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVNotification.h"; path = "org.apache.cordova.dialogs/CDVNotification.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		DD7DF4081CD647DE8C90A4C0 /* CDVNotification.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "CDVNotification.bundle"; path = "CDVNotification.bundle"; sourceTree = "<group>"; };
 		8F438501472A4734841C5902 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AudioToolbox.framework"; path = "System/Library/Frameworks/AudioToolbox.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		8CD46D2A934E4EDEB3DA3ACC /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		F5C1A6FF443C45258CCB297B /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +233,8 @@
 			children = (
 				296CE2D32C0444299E860583 /* CDVNotification.m */,
 				E75A33D19C7A43B4B3E4B6C4 /* CDVNotification.h */,
+				8CD46D2A934E4EDEB3DA3ACC /* CDVInAppBrowser.m */,
+				F5C1A6FF443C45258CCB297B /* CDVInAppBrowser.h */,
 			);
 			name = Plugins;
 			path = "LaunchPad/Plugins";
@@ -417,6 +422,7 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				ED7E6F71756E4D5FA1ADB154 /* CDVNotification.m in Sources */,
+				6A582531EFBF455980081822 /* CDVInAppBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
