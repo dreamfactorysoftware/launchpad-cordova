@@ -25,7 +25,11 @@
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/styles \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/views \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/img/logo \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/img/tile \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/img/logo/df_logo_txt.png \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/img/tile/background \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/img/tile/background/identifier_app.png \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/img/tile/background/identifier_group.png \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/plugins/org.apache.cordova.dialogs \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/plugins/org.apache.cordova.inappbrowser \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www \
@@ -36,8 +40,8 @@
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/plugins/org.apache.cordova.inappbrowser/www/InAppBrowser.js \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/scripts/2d43d09e.index.js \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/scripts/2e33852a.modules.js \
-/Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/scripts/7b946bc9.scripts.js \
-/Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/styles/1ad99e29.custom.css \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/scripts/e98a18a0.scripts.js \
+/Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/styles/b48fc983.custom.css \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/styles/css \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/styles/fonts \
 /Users/tonystark/Repos/xlaunchpad/platforms/android/assets/www/styles/css/44f2de25.vendor.css \

@@ -569,11 +569,9 @@ angular.module('lpApp')
 
             launchApp: function(app) {
 
-                windows[app.id] = window.open(app.launch_url, app.name, 'location=yes,menubar=yes,titlebar=yes');
-
-                if (windows[app.id]) {
+                if (window.open(app.launch_url, app.name, 'toolbar=yes,location=yes')) {
                     return true;
-                }
+                };
 
                 throw {message:'Unable to launch ' + app.name}
 

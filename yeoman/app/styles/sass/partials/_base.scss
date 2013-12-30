@@ -1,9 +1,11 @@
 @import "../modules/_colors.scss";
 
 
-$tiletitlecolor: $darkcolor;
+$tiletitlecolor: #fff;
 $tiletitlemargin: 0;
-$tilebackgroundcolor: $lightcolor;
+$tileappbackgroundcolor: #0071BC;
+$tilegroupbackgroundcolor: #F15A24;
+$tiledspbackgroundcolor: #444;
 $tileurlcolor: $darkcolor;
 
 html {
@@ -176,11 +178,23 @@ ul.mobile-dsp-list-tiles {
   a {
     text-decoration: none;
 
+    li.app {
+      background-image: url('../../img/tile/background/identifier_app.png');
+      background-color: $tileappbackgroundcolor;
+    }
+
+    li.group {
+      background-image: url('../../img/tile/background/identifier_group.png');
+      background-color: $tilegroupbackgroundcolor;
+    }
+
+    li.dsp {
+      background-color: $tiledspbackgroundcolor;
+    }
 
     li {
 
       list-style: none;
-      background: $tilebackgroundcolor;
       width: 100px;
       height: 100px;
       overflow: hidden;
@@ -289,7 +303,8 @@ hr {
   border-top: 1px solid $mediumcolor;
 }
 
-.pageText {
-  color: $lightmediumcolor;
-  text-align: left;
+
+.navbar-dreamfactory {
+  background: $darkcolor;
+  border: none;
 }

@@ -12,10 +12,9 @@
     </div>
 </div>
 -->
-<div class="ms-pad-top">
     <ul class="mobile-dsp-list-tiles">
         <a>
-            <li hm-tap="singleTap(app)" hm-hold="holdApp(app)" data-ng-repeat="app in group.apps">
+            <li class="app" hm-tap="singleTap(app)" hm-hold="holdApp(app)" data-ng-repeat="app in group.apps">
                 <div>
                     <h3 class="skinny">{{app.name}}</h3>
                     <!-- <p>{{dsp.url}}</p> -->
@@ -23,6 +22,5 @@
             </li>
         </a>
     </ul>
-</div>
 
 

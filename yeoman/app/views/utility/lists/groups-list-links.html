@@ -33,10 +33,9 @@
 </a>
 </ul>
 -->
-<div class="md-pad-top">
     <ul class="mobile-dsp-list-tiles">
         <a>
-            <li hm-tap="singleTapGroup(group)" data-ng-repeat="group in groups.appGroups">
+            <li  class="group" hm-tap="singleTapGroup(group)" data-ng-repeat="group in groups.appGroups">
                 <div>
                     <h3 class="skinny">{{group.name}}</h3>
                     <!-- <p>{{dsp.url}}</p> -->
@@ -44,7 +43,7 @@
             </li>
         </a>
         <a>
-            <li hm-tap="singleTapApp(app)" hm-hold="holdApp(app)" data-ng-repeat="app in groups.Ungrouped">
+            <li class="app" hm-tap="singleTapApp(app)" hm-hold="holdApp(app)" data-ng-repeat="app in groups.Ungrouped">
                 <div>
                     <h3 class="skinny">{{app.name}}</h3>
                     <!-- <p>{{dsp.url}}</p> -->
@@ -52,4 +51,3 @@
             </li>
         </a>
     </ul>
-</div>

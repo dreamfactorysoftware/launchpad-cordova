@@ -2,99 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bad9c66-056c-458e-b347-e7cecf537e80" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yeoman/app/styles/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yeoman/app/img/logo/df_logo_txt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yeoman/app/styles/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yeoman/app/styles/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yeoman/app/styles/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yeoman/app/views/app-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yeoman/app/views/public/connect-to-dsp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yeoman/app/styles/fonts/fontawesome-webfont.svg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/scripts/79692008.modules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/styles/44f2de25.vendor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/public/app-settings.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/scripts/79692008.modules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/styles/44f2de25.vendor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/platforms/ios/www/views/public/app-settings.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/scripts/79692008.modules.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/styles/44f2de25.vendor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/views/public/app-settings.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/yeoman/app/views/public/app-settings.html" afterPath="$PROJECT_DIR$/yeoman/app/views/public/settings/app-settings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/classes.dex" afterPath="$PROJECT_DIR$/platforms/android/bin/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yeoman/app/img/tile/background/identifier_app.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yeoman/app/img/tile/background/identifier_group.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/dexedLibs/cordova-3.2.0-0b042d7443b377f855a6d058bbc8f651.jar" afterPath="$PROJECT_DIR$/platforms/android/bin/dexedLibs/cordova-3.2.0-0b042d7443b377f855a6d058bbc8f651.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad-debug-unaligned.apk" afterPath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad-debug.apk" afterPath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad.ap_" afterPath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/Gruntfile.js" afterPath="$PROJECT_DIR$/yeoman/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/.gitignore" afterPath="$PROJECT_DIR$/yeoman/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/styles/sass/partials/_base.scss" afterPath="$PROJECT_DIR$/yeoman/app/styles/sass/partials/_base.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/styles/sass/modules/_colors.scss" afterPath="$PROJECT_DIR$/yeoman/app/styles/sass/modules/_colors.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/android.json" afterPath="$PROJECT_DIR$/plugins/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/styles/sass/partials/_typography.scss" afterPath="$PROJECT_DIR$/yeoman/app/styles/sass/partials/_typography.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/utility/lists/app-list-links.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/utility/lists/app-list-links.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/utility/lists/app-list-links.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/utility/lists/app-list-links.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/utility/lists/app-list-links.html" afterPath="$PROJECT_DIR$/www/views/utility/lists/app-list-links.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/utility/lists/app-list-links.html" afterPath="$PROJECT_DIR$/yeoman/app/views/utility/lists/app-list-links.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/scripts/app.js" afterPath="$PROJECT_DIR$/yeoman/app/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/build.prop" afterPath="$PROJECT_DIR$/platforms/android/bin/build.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/classes.dex.d" afterPath="$PROJECT_DIR$/platforms/android/bin/classes.dex.d" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/LaunchPad/config.xml" afterPath="$PROJECT_DIR$/platforms/ios/LaunchPad/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/platforms/ios/www/cordova_plugins.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/utility/lists/dsp-list-links.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/utility/lists/dsp-list-links.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/utility/lists/dsp-list-links.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/utility/lists/dsp-list-links.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/utility/lists/dsp-list-links.html" afterPath="$PROJECT_DIR$/www/views/utility/lists/dsp-list-links.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/utility/lists/dsp-list-links.html" afterPath="$PROJECT_DIR$/yeoman/app/views/utility/lists/dsp-list-links.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/public/settings/dsp-settings-expand.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/public/settings/dsp-settings-expand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/public/settings/dsp-settings-expand.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/public/settings/dsp-settings-expand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/public/settings/dsp-settings-expand.html" afterPath="$PROJECT_DIR$/www/views/public/settings/dsp-settings-expand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/public/settings/dsp-settings-expand.html" afterPath="$PROJECT_DIR$/yeoman/app/views/public/settings/dsp-settings-expand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/utility/forms/get-dsp-form.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/utility/forms/get-dsp-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/utility/forms/get-dsp-form.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/utility/forms/get-dsp-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/utility/forms/get-dsp-form.html" afterPath="$PROJECT_DIR$/www/views/utility/forms/get-dsp-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/utility/forms/get-dsp-form.html" afterPath="$PROJECT_DIR$/yeoman/app/views/utility/forms/get-dsp-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/public/get-started.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/public/get-started.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/public/get-started.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/public/get-started.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/public/get-started.html" afterPath="$PROJECT_DIR$/www/views/public/get-started.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/public/get-started.html" afterPath="$PROJECT_DIR$/yeoman/app/views/public/get-started.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/utility/lists/groups-list-links.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/utility/lists/groups-list-links.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/utility/lists/groups-list-links.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/utility/lists/groups-list-links.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/utility/lists/groups-list-links.html" afterPath="$PROJECT_DIR$/www/views/utility/lists/groups-list-links.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/utility/lists/groups-list-links.html" afterPath="$PROJECT_DIR$/yeoman/app/views/utility/lists/groups-list-links.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/public/home.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/public/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/public/home.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/public/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/public/home.html" afterPath="$PROJECT_DIR$/www/views/public/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/public/home.html" afterPath="$PROJECT_DIR$/yeoman/app/views/public/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/index.html" afterPath="$PROJECT_DIR$/yeoman/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/ios.json" afterPath="$PROJECT_DIR$/plugins/ios.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/launchpad-group.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/launchpad-group.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/launchpad-group.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/launchpad-group.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/launchpad-group.html" afterPath="$PROJECT_DIR$/www/views/launchpad-group.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/launchpad-group.html" afterPath="$PROJECT_DIR$/yeoman/app/views/launchpad-group.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/launchpad.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/launchpad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/launchpad.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/launchpad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/launchpad.html" afterPath="$PROJECT_DIR$/www/views/launchpad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/launchpad.html" afterPath="$PROJECT_DIR$/yeoman/app/views/launchpad.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/scripts/controllers/launchpad.js" afterPath="$PROJECT_DIR$/yeoman/app/scripts/controllers/launchpad.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/utility/forms/login-form.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/utility/forms/login-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/utility/forms/login-form.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/utility/forms/login-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/utility/forms/login-form.html" afterPath="$PROJECT_DIR$/www/views/utility/forms/login-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/utility/forms/login-form.html" afterPath="$PROJECT_DIR$/yeoman/app/views/utility/forms/login-form.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/public/login.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/public/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/public/login.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/public/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/public/login.html" afterPath="$PROJECT_DIR$/www/views/public/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/public/login.html" afterPath="$PROJECT_DIR$/yeoman/app/views/public/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/LaunchPad.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/platforms/ios/LaunchPad.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/scripts/controllers/public.js" afterPath="$PROJECT_DIR$/yeoman/app/scripts/controllers/public.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/styles/stylesheets/screen.css" afterPath="$PROJECT_DIR$/yeoman/app/styles/stylesheets/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/scripts/services/services.js" afterPath="$PROJECT_DIR$/yeoman/app/scripts/services/services.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/scripts/controllers/user.js" afterPath="$PROJECT_DIR$/yeoman/app/scripts/controllers/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/assets/www/views/public/welcome.html" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/public/welcome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/views/public/welcome.html" afterPath="$PROJECT_DIR$/platforms/ios/www/views/public/welcome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/views/public/welcome.html" afterPath="$PROJECT_DIR$/www/views/public/welcome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/views/public/welcome.html" afterPath="$PROJECT_DIR$/yeoman/app/views/public/welcome.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yeoman/app/scripts/directives/widget.js" afterPath="$PROJECT_DIR$/yeoman/app/scripts/directives/widget.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad.ap_.d" afterPath="$PROJECT_DIR$/platforms/android/bin/xLaunchpad.ap_.d" />
@@ -120,30 +61,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="public.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/controllers/public.js">
+      <file leaf-file-name="_base.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yeoman/app/styles/sass/partials/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="341" column="54" selection-start="10950" selection-end="10950" vertical-scroll-proportion="0.0" vertical-offset="1464" max-vertical-offset="2250">
+            <state line="7" column="29" selection-start="180" selection-end="180" vertical-scroll-proportion="0.039893616" vertical-offset="75" max-vertical-offset="4725">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeoman/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="5" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeoman/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="182" column="0" selection-start="7243" selection-end="7243" vertical-scroll-proportion="-25.708334" vertical-offset="2113" max-vertical-offset="2865">
               <folding>
-                <element signature="e#67#349#0" expanded="false" />
-                <element signature="e#382#801#0" expanded="false" />
-                <element signature="e#837#999#0" expanded="false" />
-                <element signature="e#1029#2981#0" expanded="false" />
-                <element signature="e#1783#1833#0" expanded="false" />
-                <element signature="e#1891#1945#0" expanded="false" />
-                <element signature="e#3012#5251#0" expanded="false" />
-                <element signature="e#5288#6377#0" expanded="false" />
-                <element signature="e#6413#6797#0" expanded="false" />
-                <element signature="e#11933#14714#0" expanded="false" />
+                <element signature="n#style#0;n#img#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1388419486000" expanded="true" signature="5488:5645" placeholder="..." />
+                <marker date="1388419486000" expanded="true" signature="5581:5613" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yeoman/Gruntfile.js">
+      <file leaf-file-name="dsp-list-links.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeoman/app/views/utility/lists/dsp-list-links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="285" column="35" selection-start="9287" selection-end="9287" vertical-scroll-proportion="0.58698374" vertical-offset="3806" max-vertical-offset="6405">
+            <state line="13" column="26" selection-start="316" selection-end="316" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app-list-links.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeoman/app/views/utility/lists/app-list-links.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="28" selection-start="471" selection-end="471" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="groups-list-links.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeoman/app/views/utility/lists/groups-list-links.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="28" selection-start="1482" selection-end="1482" vertical-scroll-proportion="-22.583334" vertical-offset="133" max-vertical-offset="885">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_typography.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeoman/app/styles/sass/partials/_typography.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="29" selection-start="447" selection-end="447" vertical-scroll-proportion="-22.916666" vertical-offset="125" max-vertical-offset="900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_colors.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeoman/app/styles/sass/modules/_colors.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="30" selection-start="80" selection-end="80" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="screen.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeoman/app/styles/stylesheets/screen.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="0" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="1950" max-vertical-offset="9360">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dsp-list-settings.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeoman/app/views/utility/lists/dsp-list-settings.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -167,22 +174,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/yeoman/app/views/utility/lists/groups-list-links.html" />
-        <option value="$PROJECT_DIR$/yeoman/app/views/app-detail.html" />
-        <option value="$PROJECT_DIR$/yeoman/app/views/public/home.html" />
-        <option value="$PROJECT_DIR$/yeoman/app/views/public/welcome.html" />
-        <option value="$PROJECT_DIR$/yeoman/app/views/public/connect-to-dsp.html" />
-        <option value="$PROJECT_DIR$/yeoman/app/views/utility/forms/get-dsp-form.html" />
-        <option value="$PROJECT_DIR$/yeoman/app/views/public/get-started.html" />
-        <option value="$PROJECT_DIR$/yeoman/app/views/public/app-settings.html" />
         <option value="$PROJECT_DIR$/yeoman/app/scripts/controllers/user.js" />
         <option value="$PROJECT_DIR$/yeoman/app/scripts/controllers/launchpad.js" />
         <option value="$PROJECT_DIR$/yeoman/app/views/public/settings/app-settings.html" />
-        <option value="$PROJECT_DIR$/yeoman/app/scripts/services/services.js" />
         <option value="$PROJECT_DIR$/yeoman/app/scripts/app.js" />
-        <option value="$PROJECT_DIR$/yeoman/app/index.html" />
         <option value="$PROJECT_DIR$/yeoman/app/scripts/controllers/public.js" />
         <option value="$PROJECT_DIR$/yeoman/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/yeoman/app/scripts/services/services.js" />
+        <option value="$PROJECT_DIR$/yeoman/app/scripts/directives/widget.js" />
+        <option value="$PROJECT_DIR$/yeoman/app/styles/sass/modules/_colors.scss" />
+        <option value="$PROJECT_DIR$/yeoman/app/styles/sass/partials/_typography.scss" />
+        <option value="$PROJECT_DIR$/yeoman/app/views/utility/lists/groups-list-links.html" />
+        <option value="$PROJECT_DIR$/yeoman/app/views/utility/lists/app-list-links.html" />
+        <option value="$PROJECT_DIR$/yeoman/.gitignore" />
+        <option value="$PROJECT_DIR$/yeoman/app/index.html" />
+        <option value="$PROJECT_DIR$/yeoman/app/views/utility/lists/dsp-list-links.html" />
+        <option value="$PROJECT_DIR$/yeoman/app/styles/sass/partials/_base.scss" />
       </list>
     </option>
   </component>
@@ -286,7 +293,197 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yeoman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yeoman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lists" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yeoman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yeoman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yeoman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yeoman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yeoman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,8 +508,82 @@
               <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yeoman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="background" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yeoman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xlaunchpad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yeoman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,6 +648,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/yeoman/app/img/tile/background" />
       <recent name="$PROJECT_DIR$/yeoman/app/img/logo" />
       <recent name="$PROJECT_DIR$/yeoman/app/styles" />
       <recent name="$PROJECT_DIR$/yeoman" />
@@ -437,12 +709,16 @@
       <created>1387378274178</created>
       <updated>1387378274178</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update.  Refactor app to use single tap and long tap.  Remove multiple settings lists and screens.  Add df logo.  Amend grunt file to copy img folder.  Added InAppBrowser bar for in app navigation.  Built for android and ios.">
+      <created>1387579030013</created>
+      <updated>1387579030013</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -476,7 +752,9 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <MESSAGE value="Auto login guest.  Add sign in after connection to DSP.  Commented out cordova.js, index.js, and app.init() in index.html.  Must be uncommented to build." />
     <MESSAGE value="Update for testing UI." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update for testing UI." />
+    <MESSAGE value="Update.  Refactor app to use single tap and long tap.  Remove multiple settings lists and screens.  Add df logo.  Amend grunt file to copy img folder.  Added InAppBrowser bar for in app navigation.  Built for android and ios." />
+    <MESSAGE value="Update.  Refactor templates.  Add group and app identifiers css." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update.  Refactor templates.  Add group and app identifiers css." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -484,130 +762,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yeoman/app/views/app-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="48" selection-start="384" selection-end="384" vertical-scroll-proportion="0.11612903" vertical-offset="0" max-vertical-offset="1125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/views/public/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="395" selection-end="395" vertical-scroll-proportion="0.15483871" vertical-offset="0" max-vertical-offset="775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/views/utility/forms/login-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="706" selection-end="863" vertical-scroll-proportion="0.30967742" vertical-offset="0" max-vertical-offset="775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/views/public/connect-to-dsp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/views/utility/forms/get-dsp-form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="64" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/views/public/get-started.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="238" selection-end="238" vertical-scroll-proportion="0.09677419" vertical-offset="0" max-vertical-offset="775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/controllers/launchpad.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="148" column="38" selection-start="3926" selection-end="3926" vertical-scroll-proportion="2.8244274" vertical-offset="0" max-vertical-offset="3195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/controllers/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="354" selection-end="354" vertical-scroll-proportion="0.15018773" vertical-offset="0" max-vertical-offset="1875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/views/public/settings/dsp-settings-expand.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="83" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/views/public/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="147" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/views/public/settings/app-settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="37" selection-start="588" selection-end="588" vertical-scroll-proportion="0.23225807" vertical-offset="0" max-vertical-offset="775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/services/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="90" selection-start="1634" selection-end="1634" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="10875">
+        <state line="571" column="83" selection-start="16242" selection-end="16242" vertical-scroll-proportion="10.896947" vertical-offset="0" max-vertical-offset="10845">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/app.js">
+    <entry file="file://$PROJECT_DIR$/yeoman/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="437" column="0" selection-start="17815" selection-end="17815" vertical-scroll-proportion="0.65707135" vertical-offset="0" max-vertical-offset="1110">
-          <folding>
-            <element signature="e#218#652#0" expanded="false" />
-            <element signature="e#684#799#0" expanded="false" />
-            <element signature="e#835#957#0" expanded="false" />
-            <element signature="e#986#3148#0" expanded="false" />
-            <element signature="e#3185#3318#0" expanded="false" />
-            <element signature="e#3355#3701#0" expanded="false" />
-            <element signature="e#3743#4178#0" expanded="false" />
-            <element signature="e#4217#4342#0" expanded="false" />
-            <element signature="e#4381#9402#0" expanded="false" />
-            <element signature="e#9432#9745#0" expanded="false" />
-            <element signature="e#9780#10201#0" expanded="false" />
-            <element signature="e#10232#10921#0" expanded="false" />
-            <element signature="e#10955#11454#0" expanded="false" />
-            <element signature="e#11496#13645#0" expanded="false" />
-            <element signature="e#13696#14111#0" expanded="false" />
-            <element signature="e#14143#16316#0" expanded="false" />
-            <element signature="e#16411#17075#0" expanded="false" />
-            <element signature="e#17089#17553#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="0" selection-start="7142" selection-end="7142" vertical-scroll-proportion="0.82580644" vertical-offset="2075" max-vertical-offset="2850">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1387577593000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1387577593000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state line="285" column="35" selection-start="9287" selection-end="9287" vertical-scroll-proportion="0.58698374" vertical-offset="3806" max-vertical-offset="6405">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/controllers/public.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="341" column="54" selection-start="10950" selection-end="10950" vertical-scroll-proportion="0.0" vertical-offset="1464" max-vertical-offset="2250">
+        <state line="341" column="54" selection-start="10950" selection-end="10950" vertical-scroll-proportion="0.35114503" vertical-offset="1644" max-vertical-offset="2430">
           <folding>
             <element signature="e#67#349#0" expanded="false" />
             <element signature="e#382#801#0" expanded="false" />
@@ -617,15 +788,103 @@
             <element signature="e#1891#1945#0" expanded="false" />
             <element signature="e#3012#5251#0" expanded="false" />
             <element signature="e#5288#6377#0" expanded="false" />
-            <element signature="e#6413#6797#0" expanded="false" />
             <element signature="e#11933#14714#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yeoman/Gruntfile.js">
+    <entry file="file://$PROJECT_DIR$/yeoman/app/scripts/directives/widget.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="35" selection-start="9287" selection-end="9287" vertical-scroll-proportion="0.58698374" vertical-offset="3806" max-vertical-offset="6405">
+        <state line="6" column="26" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/views/utility/lists/dsp-list-settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/styles/sass/screen.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="439" selection-end="439" vertical-scroll-proportion="0.21290323" vertical-offset="0" max-vertical-offset="775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/styles/sass/partials/_app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/styles/stylesheets/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="1950" max-vertical-offset="9300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/styles/sass/modules/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="30" selection-start="80" selection-end="80" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/styles/sass/partials/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="29" selection-start="447" selection-end="447" vertical-scroll-proportion="-22.916666" vertical-offset="125" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/views/utility/lists/groups-list-links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="28" selection-start="1482" selection-end="1482" vertical-scroll-proportion="-22.583334" vertical-offset="133" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="0" selection-start="7243" selection-end="7243" vertical-scroll-proportion="-25.708334" vertical-offset="2113" max-vertical-offset="2865">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1388419486000" expanded="true" signature="5488:5645" placeholder="..." />
+            <marker date="1388419486000" expanded="true" signature="5581:5613" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/views/utility/lists/app-list-links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="28" selection-start="471" selection-end="471" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/views/utility/lists/dsp-list-links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="26" selection-start="316" selection-end="316" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeoman/app/styles/sass/partials/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="180" selection-end="180" vertical-scroll-proportion="0.039893616" vertical-offset="75" max-vertical-offset="4725">
           <folding />
         </state>
       </provider>

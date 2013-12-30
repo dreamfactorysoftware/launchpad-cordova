@@ -4,11 +4,12 @@ angular.module('lpApp')
     .directive('pageHeader', [function() {
         return {
             restrict: 'E',
+            replace: true,
             scope: {
                 title: '=title',
                 description: '=description'
             },
-            template:'<h2 class="pageText">{{title}}</h2><hr /><p class="pageText">{{description}}</p>'
+            template:'<div class="pageText"><h2>{{title}}</h2><p>{{description}}</p></div>'
         }
     }]);
 
