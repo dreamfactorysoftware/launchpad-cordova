@@ -2,3 +2,15 @@
 .idea/workspace.xml
 
 .idea/workspace.xml
+
+*.xcscheme
+
+platforms/ios/CordovaLib/CordovaLib.xcodeproj/xcuserdata/jasonsykes.xcuserdatad/xcschemes/xcschememanagement.plist
+
+platforms/ios/LaunchPad.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+platforms/ios/LaunchPad.xcodeproj/project.xcworkspace/xcshareddata/LaunchPad.xccheckout
+
+platforms/ios/LaunchPad.xcodeproj/project.xcworkspace/xcuserdata/jasonsykes.xcuserdatad/UserInterfaceState.xcuserstate
+
+platforms/ios/LaunchPad.xcodeproj/xcuserdata/jasonsykes.xcuserdatad/xcschemes/xcschememanagement.plist
