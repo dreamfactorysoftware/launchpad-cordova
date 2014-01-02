@@ -48,6 +48,19 @@
         <false/>
       </dict>
     </dict>
+    <key>CFBundleURLTypes</key>
+        <array>
+            <dict>
+                <key>CFBundleURLName</key>
+                <string>com.dreamfactory.dreamfactory</string>
+            </dict>
+            <dict>
+                <key>CFBundleURLSchemes</key>
+                <array>
+                    <string>dreamfactory</string>
+                </array>
+            </dict>
+        </array>
     <key>CFBundleIdentifier</key>
     <string>com.dreamfactory.launchpad</string>
     <key>CFBundleInfoDictionaryVersion</key>
