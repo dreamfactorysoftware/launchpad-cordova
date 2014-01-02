@@ -9,6 +9,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <preference name="fullscreen" value="true" />
+    <preference name="Fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
+    <preference name="DisallowOverscroll" value="true"/>
 </widget>
