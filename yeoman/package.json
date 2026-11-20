@@ -46,7 +46,7 @@
         "has-color": "~0.1.1",
         "grunt-lib-contrib": "~0.6.1",
         "uglify-js": "~2.4.7",
-        "tmp": "0.0.23",
+        "tmp": "0.2.7",
         "dargs": "~0.1.0",
         "underscore": "~1.5.2",
         "console-browserify": "~1.0.3",
